@@ -17,10 +17,9 @@
 /* COMMON */
 * body{
     font-family: 'Roboto', sans-serif;
-
 }
 .bigtext{
-    font-size: 50px;
+    font-size: 45px;
     padding-bottom: 50px ;
 }
 .smalltext{
@@ -44,6 +43,11 @@
 .whitebtn, .blackbtn{
     display: inline-block;
     margin: 15px 10px;
+}
+.reverse{
+    flex-direction: row-reverse;
+    background-color: lightgray;
+    margin: 35px 0;
 }
 /* HEADER*/
 header{
@@ -79,9 +83,6 @@ header{
     align-items: center;
     
 }
-/* FINE HEADER*/
-
-/* MAIN  */
 .download{
     display:flex;
     height: 490px;
@@ -95,39 +96,35 @@ header{
 .download1{
     text-align: center;
     max-width: 55%;
-    line-height: 25px;
+    line-height: 30px;
     color: white;
 }
+/* FINE HEADER*/
+/* MAIN  */
+  /* BOX SPECCHIATE */
 .sezione2{
     display:flex;
-    width:100%;
-    height: 480px;
-    margin: 10px;
-    padding: 35px;
-    background-color: white;
+    padding: 90px;
+    gap: 150px;
+}
+.serverpng{
+    width:40%;
+    padding: 90px 50px;
+}
+.serverpng2{
+    width:40%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.blue{
-    background-color: cornflowerblue;
-    width:40%;
-    min-height: 480px;
-    border: dashed 1px;
-}
-.pink{
-    background-color: pink;
+.serverh1{
     width: 20%;
-    min-height: 480px;
-    border: dashed 1px;
 }
-.reverse{
-    flex-direction: row-reverse;
-    background-color: lightgray;
-    margin: 35px 0;
-}
+
+  /* /BOX SPECCHIATE */
 .sezione3{
     display:flex;
-    width: 100%x;
+    width: 100%;
     height: 480px;
     padding: 35px;
     background-color: lightgray;
