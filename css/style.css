@@ -77,7 +77,6 @@ header{
     justify-content: center;
     color: #efefef;
 }
-
 .logo, .lista, .login{
     display: flex;
     align-items: center;
@@ -103,8 +102,9 @@ header{
 /* MAIN  */
   /* BOX SPECCHIATE */
 .sezione2{
+    width: 100%;
     display:flex;
-    padding: 90px;
+    padding: 80px;
     gap: 150px;
 }
 .serverpng{
@@ -130,7 +130,6 @@ header{
     background-color: lightgray;
     justify-content: center;
     align-items: center;
-
 }
 .greenbox{
     width: 60%;
@@ -160,7 +159,7 @@ header{
     height: 590px;
     border: 1px dashed;
 }
-
+/* FINE MAIN  */
 /* FOOTER  */
 
 footer{
