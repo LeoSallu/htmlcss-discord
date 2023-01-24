@@ -43,7 +43,32 @@ body{
 }
 .purple{
     background-color: #7289da;
-    
+    color: #efefef;
+    margin: 40px;
+    display: inline-block;
+    width: 200px;
+}
+.purpletext{
+    color: #7289da;
+}
+.purple::before{
+    content: '\2193';
+}
+.whitebtn::before{
+    content: '\2193';
+}
+.ita{
+    color: white;
+    padding-left: 5px;
+}
+.icon{
+    padding: 10px;
+    color: white;
+  
+}
+.listafooter{
+    list-style-type: none;
+    color: #efefef;
 }
 /* HEADER*/
 header{
@@ -120,19 +145,18 @@ header{
   /* /BOX SPECCHIATE */
 
 .sezione3{
-    background-color: lightgray;
+    background-color:#efefef;
     margin: 0 auto;
     padding: 90px 70px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-
 }
-
+/* FINE MAIN  */
+/* COLONNE */
 .sezione4{
     display: flex;
-    min-height:630px;
     margin: 0 auto;
     padding: 10px 20%;
     background-color: #23272a;
@@ -140,22 +164,21 @@ header{
     align-items: center;
 
 }
-.boxred{
+.boxicon{
+    align-self: flex-start;
     width: 40%;
-    height: 590px;
-    background-color: salmon;
-    border: 1px dashed;
+    color: #7289da;
+    padding: 60px 60px;
 
 }
-.columngreen{
-    background-color: #20b2aa;
-    width: 15%;
-    height: 590px;
-    border: 1px dashed;
+.column{
+padding: 60px 60px;
 }
-/* FINE MAIN  */
-/* FOOTER  */
-
+.flag{
+    width: 10%;
+}
+/* /COLONNE */
+/* FOOTER */
 footer{
     width: 100%;
     height: 100px;
